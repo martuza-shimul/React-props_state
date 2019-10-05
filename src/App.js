@@ -1,17 +1,12 @@
 import React from 'react';
+import Hello from './sayHello';
 
 function App() {
 
-  const sayHello = () => {
-    console.log('Hello');
-  };
-  
-  
-
   return(
     <div>
-      <h1>Hello React</h1>
-      <button onClick={sayHello}>Hello</button>
+      <h1>This is the App component</h1>
+      <Hello />
     </div>
   )
 }
